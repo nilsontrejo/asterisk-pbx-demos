@@ -1,0 +1,12 @@
+[general]
+context=default
+port = 5060
+bindaddr = 0.0.0.0
+
+[6001]
+type=friend
+context=from-internal
+host=dynamic
+secret=12345
+disallow=all
+allow=ulaw
